@@ -1,0 +1,21 @@
+$heading-color: #041a31;
+
+%message-shared {
+    border: 1px solid #f2f0ff;
+    background: rgb(2, 3, 71);
+    padding: 10px 30px;
+
+    &:active {
+        box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+    }
+  }
+  
+
+@mixin i ($shadow, $color: #f2f0ff) {
+    color: $color; 
+    text-shadow: $shadow;   
+}
+  // This CSS won't print because %equal-heights is never extended.
+  
+
+  
